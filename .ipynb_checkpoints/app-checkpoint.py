@@ -9,4 +9,4 @@ df = px.data.iris()
 
 st.write(df)
     
-st.write(px.scatter(df,x="speal_length",y="speal_width",clolor ="species"))
+st.write(px.scatter(df,x="sepal_length",y="sepal_width",color ="species"))
